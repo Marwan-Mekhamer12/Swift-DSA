@@ -4,6 +4,8 @@
 ///    - value: The value to search for.
 ///    - array: A sorted array of integers.
 /// - Returns: True if the value exists, otherwise false.
+// Time Complexity: O(log n)
+// Space Complexity: O(1)
 
 public func binarySearch(_ value: Int, in array: [Int]) -> Bool {
     var left = 0
